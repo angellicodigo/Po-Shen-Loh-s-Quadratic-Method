@@ -1,10 +1,16 @@
 import math
 import cmath
 from fractions import Fraction
-#start
-print(
-    "This is a calculator for Po-Shen Loh's approach on\nsolving quadratic equations, without using the quadratic formula.\n\nGiven: (ax^2 + bx^2 + c)\nSolve: (-B/2 + z)(-B/2 - z) = C as B = b/a and C = c/a"
-)
+
+print("""
+
+This is a calculator for Po-Shen Loh's approach on
+solving quadratic equations, without using the quadratic formula.
+
+Given: (ax^2 + bx^2 + c)
+Solve: (-B/2 + z)(-B/2 - z) = C as B = b/a and C = c/a"
+
+""")
 
 
 def solve():
