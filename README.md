@@ -8,4 +8,22 @@ This quadratic formula solver using Po-Shen Loh method shows step-by-step for so
 
 # For example
 
-**x^2 + 4x + 5**
+Lets say we are solving **x^2 + 4x + 5**
+
+```
+Given: (ax^2 + bx^2 + c)
+Solve: (-B/2 + z)(-B/2 - z) = C as B = b/a and C = c/a
+
+Enter the number for a: 1
+Enter the number for b: 4
+Enter the number for c: 5
+
+Solving for: (1.0)x^2+(4.0)x+(5.0)
+(-2 + z)(-2 - z) = 5
+(-2)^2 - (z)^2 = 5
+4 - z^2 = 5
+-z^2 = 5 - 4
+√(z)^2 = √(-1)
+z = 1j
+x = -2 + 1j, x = -2 - 1j
+```
